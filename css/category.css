@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../photo/2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color :#fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: lavenderblush;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.cate{
+	position: absolute;
+	top: 30%;
+	left: 12%
+	
+}
+
+.cate img{
+	width: 230px;
+	height: 180px;
+	padding: 5px;
+	filter: grayscale(100%);
+	transition: 1s ease;
+}
+
+.cate img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
